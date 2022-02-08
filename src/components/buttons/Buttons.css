@@ -1,0 +1,95 @@
+.button-record{
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  position: relative;
+  border-radius: 25px;
+  border: none;
+  /* background-image: url("../../images/record.png") center no-repeat;
+  background-color: white;
+    background-image: url("../../images/record.png") center no-repeat; */
+  background: url("../../images/record.png"), white;
+  background-size: 100% 100%
+}
+
+.button-record.recording{
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  position: relative;
+  border-radius: 25px;
+  border: none;
+  background: url("../../images/stop.png"), white;
+  background-size: 100% 100%
+
+}
+.button-record:active{
+  border: 5px solid transparent;
+}
+
+
+.button-play{
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  position: relative;
+  border-radius: 25px;
+  border: none;
+  background: url("../../images/play.png"), white;
+  background-size: 100% 100%
+}.button-play:active{
+  border: 5px solid transparent;
+}
+
+.button-play.recording{
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  position: relative;
+  border-radius: 25px;
+  border: none;
+  background: url("../../images/play.png"), lightgray;
+  background-size: 100% 100%
+}
+
+
+.button-download{
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  position: relative;
+  border-radius: 25px;
+  border: none;
+  background: url("../../images/download.png"), white;
+  background-size: 100% 100%
+}
+.button-download:active{
+  border: 5px solid transparent;
+}
+
+.button-download.recording{
+  height: 50px;
+  width: 50px;
+  margin: auto;
+  position: relative;
+  border-radius: 25px;
+  border: none;
+  background: url("../../images/download.png"), lightgray;
+  background-size: 100% 100%
+}
+
+
+.dropdown {
+  margin: auto;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+}
+
+.dropdown select {
+  background-color: #0563af;
+  color: white;
+  border: none;
+  font-size: 2vw;
+  outline: none;
+}

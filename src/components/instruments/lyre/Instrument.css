@@ -1,0 +1,52 @@
+.lyre {
+  height: 100%;
+  width: 70%;
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  /* background-color: rgb(241, 199, 159); */
+}
+
+.lyrekey {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  width: 0.5%;
+  margin: auto;
+  justify-content: center;
+}
+
+  
+.lyrekey.pressed {
+  background-color: wheat;
+  /* width: 0.25% */
+}
+
+
+
+.lyrekey-note {
+  align-self: center;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 25px;
+  pointer-events: none;
+  margin-top: -3.75vh;
+  margin-bottom: auto;
+  /* margin-left: 50%;
+  margin-right: auto; */
+}
+
+.lyrekey-text {
+  align-self: center;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 25px;
+  pointer-events: none;
+  margin-top: auto;
+  margin-bottom: -3.5vh;
+
+  /* margin-left: 50%;
+  margin-right: auto; */
+}
